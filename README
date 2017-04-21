@@ -1,0 +1,16 @@
+ONEMLI:
+1) Ilk olarak 
+    ./timeServer <ticksInMiliseconds> <n> <mainFifo>
+calistirilir.
+
+2) Ikinci olarak 
+    ./showResult 
+calistirilir.
+
+3) Son olarak da 
+    ./seeWhat <mainFifo> <flag>
+    OR
+    ./seeWhat <mainFifo>
+calistirilir.
+
+seeWhat showResult'a ve timeServer'a bagli oldugu icin en son calistirilir.
